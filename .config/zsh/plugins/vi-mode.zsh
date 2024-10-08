@@ -1,12 +1,3 @@
-# 
-# oh-my-zsh
-#
-
-# VI_MODE_SET_CURSOR=true
-# VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
-#
-# bindkey -M viins 'jk' vi-cmd-mode
-
 export ZVM_VI_INSERT_ESCAPE_BINDKEY=jk
 function my_init() {
   [ -f $FZF_PATH/fzf.zsh ] && source $FZF_PATH/fzf.zsh

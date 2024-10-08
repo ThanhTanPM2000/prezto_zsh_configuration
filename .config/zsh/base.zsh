@@ -16,9 +16,6 @@ alias zshreload="source ~/.zshrc"
 # Homebrew
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
-# Groq ai
-export GROQ_API_KEY="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"
-
 # Java
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
