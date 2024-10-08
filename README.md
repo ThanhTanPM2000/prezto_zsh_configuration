@@ -48,20 +48,21 @@ Now, install the necessary plugins into the `~/.zprezto/contrib` directory:
 - [eza-zsh](https://github.com/MohamedElashri/eza-zsh)
 
 You can clone them directly from their respective repositories:
-bash
 
+```bash
 git clone <https://github.com/jeffreytse/zsh-vi-mode.git>
 git clone <https://github.com/unixorn/fzf-zsh-plugin.git>
 git clone <https://github.com/MohamedElashri/eza-zsh.git>
+```
 
 ## Backup on GitHub Repository
 
-To back up your Prezto configuration on GitHub, follow these steps:
+To back up your `Prezto` configuration on GitHub, follow these steps:
 
 ### 1. Create a backup directory
 
 ```bash
-mkdir ~/Documents/prezto_zsh_configuration && \
+mkdir ~/Documents/prezto_zsh_configuration
 ```
 
 ### 2. Copy your configuration files and folders
